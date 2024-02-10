@@ -1,8 +1,8 @@
 {
-  "name": "trying",
+  "name": "requirement1",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dateUtil.js",
   "type":"module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
