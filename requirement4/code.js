@@ -1,6 +1,4 @@
 const fs = import('fs').promises;
-
-// Attach 'exit' and 'unhandledRejection' events to the 'process' object
 process.on('exit', (code) => {
     console.log(`'exit' event called with code ${code}`);
 });
@@ -10,7 +8,6 @@ process.on('unhandledRejection', (reason, promise) => {
     console.log("'unhandledRejection' event called");
 });
 
-// Promisified version of fs.readFile function
 const readFileAsync = async (fileName) => {
     try {
         const data = await fs.readFile(fileName);
@@ -20,7 +17,6 @@ const readFileAsync = async (fileName) => {
     }
 };
 
-// Example usage with incorrect file name
 readFileAsync('nonexistentfile.txt')
     .then(data => {
         console.log('File contents:', data);
