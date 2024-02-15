@@ -23,5 +23,5 @@ readFileAsync('nonexistentfile.txt')
     })
     .catch(error => {
         console.error(error.message);
-        throw new Error('An error occurred in the catch handler');
+        throw new Error('An error occurred');
     });
