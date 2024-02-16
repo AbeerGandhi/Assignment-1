@@ -1,8 +1,8 @@
 link git with vs code :
-1)select the folder 
-2)go to view<hidden file<delete .git file(this will delete link  between vs code and git)
-3)open vscode add folder then go to source control
-4)select publish to git < public/private
+  1)select the folder 
+  2)go to view<hidden file<delete .git file(this will delete link  between vs code and git)
+  3)open vscode add folder then go to source control
+  4)select publish to git < public/private
 
 
 
